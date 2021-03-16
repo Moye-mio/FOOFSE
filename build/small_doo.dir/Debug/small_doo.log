@@ -1,0 +1,44 @@
+﻿  Compile vertex and pixel shader: shader_MinGather_LowRes.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_MinGather_LowRes.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_MinGather_LowRes.pso
+  Compile vertex and pixel shader: shader_RenderFragments.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_RenderFragments.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_RenderFragments.pso
+  Compile vertex and pixel shader: shader_SortFragments_LowRes.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_SortFragments_LowRes.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_SortFragments_LowRes.pso
+  Compile vertex and pixel shader: shader_SortFragments.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_SortFragments.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_SortFragments.pso
+  Compile vertex and pixel shader: shader_MinGather_FOM.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_MinGather_FOM.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_MinGather_FOM.pso
+  Compile vertex, geometry and pixel shader: shader_CreateLists_HQ.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_HQ.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_HQ.gso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_HQ.pso
+  Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes.gso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes.pso
+  Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes_FOM.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes_FOM.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes_FOM.gso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_CreateLists_LowRes_FOM.pso
+  Compile vertex, geometry and pixel shader: shader_test.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_test.vso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_test.gso
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_test.pso
+  Compile compute shader: shader_FadeToAlphaPerVertex.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_FadeToAlphaPerVertex.cso
+  Compile compute shader: shader_SmoothAlpha.hlsl 	 
+  compilation object save succeeded; see I:\VS\DirectX\small-doo-master\build\Debug\shader_SmoothAlpha.cso
+  Copy resource to output: data/heli.obj 	 
+  Copy resource to output: data/rings.obj 	 
+  Copy resource to output: data/tornado.obj 	 
+  main.cpp
+i:\vs\directx\small-doo-master\camera.hpp(71): warning C4305: “初始化”: 从“double”到“float”截断
+i:\vs\directx\small-doo-master\lines.hpp(272): warning C4018: “<”: 有符号/无符号不匹配
+i:\vs\directx\small-doo-master\lines.hpp(357): warning C4018: “<”: 有符号/无符号不匹配
+i:\vs\directx\small-doo-master\lines.hpp(371): warning C4018: “<”: 有符号/无符号不匹配
+  small_doo.vcxproj -> I:\VS\DirectX\small-doo-master\build\Debug\small_doo.exe

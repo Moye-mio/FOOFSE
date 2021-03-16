@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+I:/VS/DirectX/small-doo-master/CMakeLists.txt
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/3.14.6/CMakeCXXCompiler.cmake
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/3.14.6/CMakeRCCompiler.cmake
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/3.14.6/CMakeSystem.cmake
+I:/VS/DirectX/small-doo-master/cmake/FindDirectX.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeCXXInformation.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeGenericSystem.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeRCInformation.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake
+L:/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake
+L:/CMake/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+L:/CMake/share/cmake-3.14/Modules/Compiler/MSVC-CXX.cmake
+L:/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-CXX.cmake
+L:/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC.cmake
+L:/CMake/share/cmake-3.14/Modules/Platform/Windows.cmake
+L:/CMake/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake

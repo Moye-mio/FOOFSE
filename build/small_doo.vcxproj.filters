@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="I:\VS\DirectX\small-doo-master\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\cbuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\d3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\lines.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\renderer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\myRenderer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_MinGather_LowRes.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_RenderFragments.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SortFragments_LowRes.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SortFragments.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_MinGather_FOM.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_HQ.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_LowRes.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_LowRes_FOM.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_test.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_FadeToAlphaPerVertex.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SmoothAlpha.hlsl" />
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\heli.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\rings.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\tornado.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="I:\VS\DirectX\small-doo-master\shader_Common.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AC822D04-AE21-33DD-A3DC-1FE193AECE1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{BB66AF5C-E2D7-34C1-96A7-F2607429836C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761A3A96-5687-3380-AF82-9559C3B83545}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

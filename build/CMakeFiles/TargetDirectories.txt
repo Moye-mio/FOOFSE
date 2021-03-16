@@ -1,0 +1,3 @@
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/small_doo.dir
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/ALL_BUILD.dir
+I:/VS/DirectX/small-doo-master/build/CMakeFiles/ZERO_CHECK.dir

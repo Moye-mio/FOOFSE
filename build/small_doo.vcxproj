@@ -1,0 +1,1221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2BB5867-3F40-3EBC-A438-44CED02AE149}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>small_doo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:/VS/DirectX/small-doo-master/build/$(CONFIGURATION)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">small_doo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">small_doo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:/VS/DirectX/small-doo-master/build/$(CONFIGURATION)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">small_doo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">small_doo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:/VS/DirectX/small-doo-master/build/$(CONFIGURATION)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">small_doo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">small_doo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:/VS/DirectX/small-doo-master/build/$(CONFIGURATION)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">small_doo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">small_doo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\d3d11.lib;I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\dxgi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/VS/DirectX/small-doo-master/build/Debug/small_doo.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/VS/DirectX/small-doo-master/build/Debug/small_doo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\d3d11.lib;I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\dxgi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/VS/DirectX/small-doo-master/build/Release/small_doo.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/VS/DirectX/small-doo-master/build/Release/small_doo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\d3d11.lib;I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\dxgi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/VS/DirectX/small-doo-master/build/MinSizeRel/small_doo.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/VS/DirectX/small-doo-master/build/MinSizeRel/small_doo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\d3d11.lib;I:\Windows Kits\10\Lib\10.0.17763.0\um\x86\dxgi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/small_doo.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/small_doo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_MinGather_LowRes.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex and pixel shader: shader_MinGather_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_MinGather_LowRes.vso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_MinGather_LowRes.pso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex and pixel shader: shader_MinGather_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_MinGather_LowRes.vso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_MinGather_LowRes.pso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex and pixel shader: shader_MinGather_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_MinGather_LowRes.vso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_MinGather_LowRes.pso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex and pixel shader: shader_MinGather_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_MinGather_LowRes.vso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_MinGather_LowRes.pso I:/VS/DirectX/small-doo-master/shader_MinGather_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_RenderFragments.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex and pixel shader: shader_RenderFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_RenderFragments.vso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_RenderFragments.pso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_RenderFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex and pixel shader: shader_RenderFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_RenderFragments.vso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_RenderFragments.pso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_RenderFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex and pixel shader: shader_RenderFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_RenderFragments.vso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_RenderFragments.pso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_RenderFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex and pixel shader: shader_RenderFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_RenderFragments.vso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_RenderFragments.pso I:/VS/DirectX/small-doo-master/shader_RenderFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_RenderFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SortFragments_LowRes.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex and pixel shader: shader_SortFragments_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_SortFragments_LowRes.vso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_SortFragments_LowRes.pso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex and pixel shader: shader_SortFragments_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_SortFragments_LowRes.vso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_SortFragments_LowRes.pso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex and pixel shader: shader_SortFragments_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_SortFragments_LowRes.vso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_SortFragments_LowRes.pso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex and pixel shader: shader_SortFragments_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_SortFragments_LowRes.vso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_SortFragments_LowRes.pso I:/VS/DirectX/small-doo-master/shader_SortFragments_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SortFragments.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex and pixel shader: shader_SortFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_SortFragments.vso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_SortFragments.pso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex and pixel shader: shader_SortFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_SortFragments.vso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_SortFragments.pso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex and pixel shader: shader_SortFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_SortFragments.vso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_SortFragments.pso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex and pixel shader: shader_SortFragments.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_SortFragments.vso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_SortFragments.pso I:/VS/DirectX/small-doo-master/shader_SortFragments.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SortFragments.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_MinGather_FOM.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex and pixel shader: shader_MinGather_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_MinGather_FOM.vso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_MinGather_FOM.pso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex and pixel shader: shader_MinGather_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_MinGather_FOM.vso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_MinGather_FOM.pso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex and pixel shader: shader_MinGather_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_MinGather_FOM.vso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_MinGather_FOM.pso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex and pixel shader: shader_MinGather_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_MinGather_FOM.vso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_MinGather_FOM.pso I:/VS/DirectX/small-doo-master/shader_MinGather_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_MinGather_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_HQ.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_HQ.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_HQ.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_HQ.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_HQ.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_HQ.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_HQ.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_HQ.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_HQ.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_HQ.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_HQ.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_HQ.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_HQ.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_HQ.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_HQ.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_HQ.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_HQ.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_HQ.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_HQ.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_HQ.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_HQ.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_HQ.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_LowRes.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_CreateLists_LowRes_FOM.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes_FOM.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes_FOM.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_CreateLists_LowRes_FOM.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes_FOM.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes_FOM.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_CreateLists_LowRes_FOM.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes_FOM.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes_FOM.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_CreateLists_LowRes_FOM.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex, geometry and pixel shader: shader_CreateLists_LowRes_FOM.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes_FOM.vso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes_FOM.gso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_CreateLists_LowRes_FOM.pso I:/VS/DirectX/small-doo-master/shader_CreateLists_LowRes_FOM.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_CreateLists_LowRes_FOM.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_test.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile vertex, geometry and pixel shader: shader_test.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_test.vso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_test.gso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_test.pso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_test.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile vertex, geometry and pixel shader: shader_test.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_test.vso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_test.gso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_test.pso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_test.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile vertex, geometry and pixel shader: shader_test.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_test.vso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_test.gso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_test.pso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_test.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile vertex, geometry and pixel shader: shader_test.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_test.vso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tvs_5_0 /E VS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_test.gso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tgs_5_0 /E GS
+if %errorlevel% neq 0 goto :cmEnd
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_test.pso I:/VS/DirectX/small-doo-master/shader_test.hlsl /nologo /O2 /Tps_5_0 /E PS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_test.vso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_FadeToAlphaPerVertex.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile compute shader: shader_FadeToAlphaPerVertex.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_FadeToAlphaPerVertex.cso I:/VS/DirectX/small-doo-master/shader_FadeToAlphaPerVertex.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_FadeToAlphaPerVertex.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile compute shader: shader_FadeToAlphaPerVertex.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_FadeToAlphaPerVertex.cso I:/VS/DirectX/small-doo-master/shader_FadeToAlphaPerVertex.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_FadeToAlphaPerVertex.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile compute shader: shader_FadeToAlphaPerVertex.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_FadeToAlphaPerVertex.cso I:/VS/DirectX/small-doo-master/shader_FadeToAlphaPerVertex.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_FadeToAlphaPerVertex.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile compute shader: shader_FadeToAlphaPerVertex.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_FadeToAlphaPerVertex.cso I:/VS/DirectX/small-doo-master/shader_FadeToAlphaPerVertex.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_FadeToAlphaPerVertex.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\shader_SmoothAlpha.hlsl">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compile compute shader: shader_SmoothAlpha.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Debug/shader_SmoothAlpha.cso I:/VS/DirectX/small-doo-master/shader_SmoothAlpha.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SmoothAlpha.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compile compute shader: shader_SmoothAlpha.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/Release/shader_SmoothAlpha.cso I:/VS/DirectX/small-doo-master/shader_SmoothAlpha.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SmoothAlpha.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Compile compute shader: shader_SmoothAlpha.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/MinSizeRel/shader_SmoothAlpha.cso I:/VS/DirectX/small-doo-master/shader_SmoothAlpha.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SmoothAlpha.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Compile compute shader: shader_SmoothAlpha.hlsl 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"I:\Windows Kits\10\bin\10.0.17763.0\x86\fxc.exe" /Fo I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/shader_SmoothAlpha.cso I:/VS/DirectX/small-doo-master/shader_SmoothAlpha.hlsl /nologo /O2 /Tcs_5_0 /E CS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\shader_SmoothAlpha.cso</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\heli.obj">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copy resource to output: data/heli.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/heli.obj I:/VS/DirectX/small-doo-master/build/Debug/data/heli.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\heli.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copy resource to output: data/heli.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/heli.obj I:/VS/DirectX/small-doo-master/build/Release/data/heli.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\heli.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Copy resource to output: data/heli.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/heli.obj I:/VS/DirectX/small-doo-master/build/MinSizeRel/data/heli.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\heli.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Copy resource to output: data/heli.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/heli.obj I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/data/heli.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\heli.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\rings.obj">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copy resource to output: data/rings.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/rings.obj I:/VS/DirectX/small-doo-master/build/Debug/data/rings.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\rings.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copy resource to output: data/rings.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/rings.obj I:/VS/DirectX/small-doo-master/build/Release/data/rings.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\rings.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Copy resource to output: data/rings.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/rings.obj I:/VS/DirectX/small-doo-master/build/MinSizeRel/data/rings.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\rings.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Copy resource to output: data/rings.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/rings.obj I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/data/rings.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\rings.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\data\tornado.obj">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copy resource to output: data/tornado.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/tornado.obj I:/VS/DirectX/small-doo-master/build/Debug/data/tornado.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\tornado.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copy resource to output: data/tornado.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/tornado.obj I:/VS/DirectX/small-doo-master/build/Release/data/tornado.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\tornado.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Copy resource to output: data/tornado.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/tornado.obj I:/VS/DirectX/small-doo-master/build/MinSizeRel/data/tornado.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\tornado.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Copy resource to output: data/tornado.obj 	 </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+L:\CMake\bin\cmake.exe -E copy I:/VS/DirectX/small-doo-master/data/tornado.obj I:/VS/DirectX/small-doo-master/build/RelWithDebInfo/data/tornado.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\tornado.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\VS\DirectX\small-doo-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule I:/VS/DirectX/small-doo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+L:\CMake\bin\cmake.exe -SI:/VS/DirectX/small-doo-master -BI:/VS/DirectX/small-doo-master/build --check-stamp-file I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeSystem.cmake;I:\VS\DirectX\small-doo-master\cmake\FindDirectX.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule I:/VS/DirectX/small-doo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+L:\CMake\bin\cmake.exe -SI:/VS/DirectX/small-doo-master -BI:/VS/DirectX/small-doo-master/build --check-stamp-file I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeSystem.cmake;I:\VS\DirectX\small-doo-master\cmake\FindDirectX.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule I:/VS/DirectX/small-doo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+L:\CMake\bin\cmake.exe -SI:/VS/DirectX/small-doo-master -BI:/VS/DirectX/small-doo-master/build --check-stamp-file I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeSystem.cmake;I:\VS\DirectX\small-doo-master\cmake\FindDirectX.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule I:/VS/DirectX/small-doo-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+L:\CMake\bin\cmake.exe -SI:/VS/DirectX/small-doo-master -BI:/VS/DirectX/small-doo-master/build --check-stamp-file I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;I:\VS\DirectX\small-doo-master\build\CMakeFiles\3.14.6\CMakeSystem.cmake;I:\VS\DirectX\small-doo-master\cmake\FindDirectX.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;L:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;L:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;L:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">I:\VS\DirectX\small-doo-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I:\VS\DirectX\small-doo-master\main.cpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\camera.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\cbuffer.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\d3d.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\lines.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\math.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\renderer.hpp" />
+    <ClInclude Include="I:\VS\DirectX\small-doo-master\myRenderer.hpp" />
+    <None Include="I:\VS\DirectX\small-doo-master\shader_Common.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="I:\VS\DirectX\small-doo-master\build\ZERO_CHECK.vcxproj">
+      <Project>{6C758FC3-CDA6-3F85-ACF6-EB2290F8A26F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

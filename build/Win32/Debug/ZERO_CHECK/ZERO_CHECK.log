@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'I:/VS/DirectX/small-doo-master/CMakeLists.txt'
+    is newer than 'I:/VS/DirectX/small-doo-master/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.18363.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: I:/VS/DirectX/small-doo-master/build
